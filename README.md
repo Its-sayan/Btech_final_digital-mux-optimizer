@@ -31,4 +31,8 @@ A direct comparison reveals that architectural choice depends heavily on the tar
 ### 2. Critical Path & Waveform Simulation
 The diagram below maps out the critical path timing constraints for the **Sum-of-Products** configuration during a select-line transition ($000 \rightarrow 101$). The simulated cumulative propagation delay settles precisely at $230\text{ ps}$.
 
-![8:1 Multiplexer Sum-of-Products Timing](results/waveform_8to1_sop.png)
+![8:1 Multiplexer Sum-of-Products Timing Diagram](results/waveform_8to1_sop.png)
+
+The physical gate-level delay breakdown matching this waveform transition can be referenced via the schematic profile:
+
+![Gate Level Logic Breakdown](results/re1.png)
